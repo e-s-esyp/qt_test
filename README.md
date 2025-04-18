@@ -20,6 +20,9 @@
 7. Возможность отменять предыдущие действия (история операций).
 
 # English
+To compile and run in Linux, just run make.sh
+
+This is a project that solves the following problem:
 
 It is necessary to write a program on a PC (OS Windows\Linux), fulfilling the following requirements:
 
