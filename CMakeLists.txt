@@ -24,11 +24,8 @@ set(PROJECT_SOURCES
         ${TS_FILES}
 )
 
-qt_add_resources(RESOURCES resources.qrc)
-
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(test
-        ${RESOURCES}
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )
